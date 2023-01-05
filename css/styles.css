@@ -1,3 +1,50 @@
 /* Tag Selectors */
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #fafafa;
+}
 
 /* Class Selectors */
+.navigation-controller-container {
+  border-bottom: 1px solid rgb(135, 135, 135, 0.5);
+  background-color: #ffffff;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-text-container {
+    font-family: "Caveat";
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-button {
+  margin-left: 0.7rem;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(135, 135, 135, 0.25);
+    height: 2rem;
+    background-color: rgb(135, 135, 135, 0.25);
+}
+
+.navigation-controller-buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.font-awesome {
+    margin-left: 0.45rem;
+    margin-right: 0.45rem;
+}
