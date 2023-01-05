@@ -5,7 +5,7 @@ body {
   background-color: #fafafa;
 }
 
-/* Class Selectors */
+/* Navigation Controller */
 .navigation-controller-container {
   border-bottom: 1px solid rgb(135, 135, 135, 0.5);
   background-color: #ffffff;
@@ -47,4 +47,68 @@ body {
 .font-awesome {
     margin-left: 0.45rem;
     margin-right: 0.45rem;
+}
+
+/* Profile Info */
+.profile-info-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 35rem;
+}
+
+.profile-image {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 8px;
+    margin-right: 4rem;
+}
+
+.profile-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.horizontal-container-in-profile-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nickname {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.first-row-element {
+    margin-right: 0.9rem;
+    font-family: "Nunito";
+    font-weight: bold;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+    font-family: "Nunito";
+    font-weight: normal;
+}
+
+.second-row-element {
+    margin-right: 0.5rem;
+}
+
+.vertical-container-in-profile-text {
+    font-family: "Nunito";
+    font-weight: normal;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.third-row-element {
+    margin: 0;
 }
