@@ -112,3 +112,29 @@ body {
 .third-row-element {
     margin: 0;
 }
+
+/* Saved Stories Container */
+.saved-stories-container {
+    margin: 50px auto;
+    display: flex;
+
+}
+
+.saved-stories-container {
+    width: 700px;
+}
+
+.one-stories-container {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.stories-photos {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid rgb(135, 135, 135, 0.5)
+}
