@@ -126,6 +126,8 @@ body {
 
 .one-stories-container {
     margin-right: 50px;
+    font-family: "Nunito";
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     justify-content: center;
